@@ -29,7 +29,7 @@ $json = $systemInfo | ConvertTo-Json
 $path = "$env:TEMP\diagnostico.json"
 $json | Out-File $path
 
-$endpoint = "https://TU-DOMINIO.vercel.app/api/diagnostico"
+$endpoint = "https://omnifix-cloud.vercel.app/api/diagnostico"
 
 Invoke-RestMethod `
   -Uri $endpoint `
