@@ -1,0 +1,17 @@
+{
+  "cliente_id": "C-1001",
+  "tipo": "familia",
+  "titular": "Carlos Pérez",
+  "equipos": [
+    {
+      "equipo_id": "E-01",
+      "alias": "Laptop Carlos",
+      "so": "Windows 11"
+    },
+    {
+      "equipo_id": "E-02",
+      "alias": "Laptop Esposa",
+      "so": "Windows 10"
+    }
+  ]
+}
