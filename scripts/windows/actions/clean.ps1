@@ -1,0 +1,6 @@
+Write-Output "Limpieza de archivos temporales..."
+
+Remove-Item -Path "$env:TEMP\*" -Recurse -Force -ErrorAction SilentlyContinue
+Remove-Item -Path "C:\Windows\Temp\*" -Recurse -Force -ErrorAction SilentlyContinue
+
+Write-Output "Limpieza completada"
